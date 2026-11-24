@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5/nmlyz/actually-broke/rank.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-say-what-actually-broke-a2c153b5)
 [![reward](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5/nmlyz/actually-broke/reward.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-say-what-actually-broke-a2c153b5)
 
-actually-broke is a tiny program that writes one one-line error message to a file: the message says what actually broke, in plain words, instead of apologising in generalities. A typo in the config file took the site down — one letter, total darkness — and the message says so, says it is fixed, and puts the letter on probation. The line is 117 characters long, short enough to fit a real error dialog.
+A one-line software error message that tells the user the brutal truth about what went wrong — and makes them laugh. This entry is for a billing failure: the customer was charged in the wrong currency, so a coffee cost the price of a car in yen. It names the failure in plain words, promises the refund, and leaves the one true thing standing: the coffee was real.
 
 ## Run it
 
@@ -12,8 +12,8 @@ actually-broke is a tiny program that writes one one-line error message to a fil
 python3 main.py
 ```
 
-It writes the error message to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`). No network access needed; the same text, byte for byte, on every run.
+That writes the entry to `/output/entry.txt` — a single line of 131 characters, within the 200-character limit.
 
 ---
 
-<sub>See the error message on [make.fun](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5)</sub>
+<sub>Entered on [make.fun](https://make.fun/?ref=23ae7fx0&utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-say-what-actually-broke-a2c153b5) · Say What Actually Broke</sub>
